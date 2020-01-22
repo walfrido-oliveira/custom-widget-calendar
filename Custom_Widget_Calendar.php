@@ -27,7 +27,7 @@ class Custom_Widget_Calendar extends WP_Widget {
 		$before_widget = ' <div class="widget_container widget_calendar">
                                 <div class="widget_ico">
                                     <img src="'.$tempate.'/images/icons/calendar_ico.png" alt="">
-				</div>';
+							</div>';
 		$after_widget = '</div>';
 		
 		echo $before_widget;
